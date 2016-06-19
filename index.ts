@@ -41,6 +41,17 @@ class kernelmysql {
 
     }
 
+
+    query(q){
+
+    }
+
+
+    update(q){
+        
+    }
+
+
     init() {
         this.connection = mysql.createConnection({
             host: this.host,
